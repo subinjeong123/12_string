@@ -1,15 +1,13 @@
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
+#include <string.h> 
 
-void main(void) 
-{
-	char src[] = "The worst tings to eat before you sleep";
-	char dst[100];
-	
-	strcpy(dst, src);
-	
-	printf("copied string : %s", dst);
+
+int main(void) 
+{ 
+	char str[30] = "happy C programming"; 
+	printf("string %s of length : %i", str, strlen(str));
+	return 0;
 }
-
 
